@@ -1,0 +1,6 @@
+Tv,900.0
+Mouse,50.0
+Tablet,350.0
+HD case,80.9
+Computer,850.0
+Monitor,290.0
