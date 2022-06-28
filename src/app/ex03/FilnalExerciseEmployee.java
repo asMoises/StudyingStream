@@ -18,7 +18,7 @@ public class FilnalExerciseEmployee {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		String path = "/home/moiss/Documentos/Fullstack_Java/StudyingStream/src/files/employees.txt";
+		String path = "/home/moiss/Documentos/Fullstack/Java/StudyingStream/src/files/employees.txt";
 
 		try (BufferedReader buffer = new BufferedReader(new FileReader(path))) {
 			String line = buffer.readLine();
@@ -50,6 +50,7 @@ public class FilnalExerciseEmployee {
 			System.out.println("Sum of salary of people whose name starts with 'M': " + String.format("%.2f", sum));
 
 		} catch (IOException e) {
+			System.out.println("Error: " + e.getMessage());
 
 		}
 
